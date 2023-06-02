@@ -3,3 +3,4 @@ pandas
 numpy
 streamlit_option_menu
 leafmap
+scikit-learn==1.0.2
