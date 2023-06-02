@@ -1,15 +1,17 @@
 import streamlit as st
 #from streamlit_option_menu import option_menu
 from apps import home, About, Visual               # import app modules from apps folder
-
+import home
+import Visual
+import About
 
 st.set_page_config(page_title="Road Accident Analysis", layout="wide")
 
 
 apps = [
-    {"func": home.app, "title": "Home", "icon": "house"},
-    {"func": Visual.app, "title": "Visual", "icon": "camera"},
-    {"func": About.app, "title": "About", "icon": "info"},
+    {"func": home, "title": "Home", "icon": "house"},
+    {"func": Visual, "title": "Visual", "icon": "camera"},
+    {"func": About, "title": "About", "icon": "info"},
     
 ]
 
