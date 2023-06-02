@@ -1,6 +1,6 @@
 import streamlit as st
-from streamlit_option_menu import option_menu
-from apps import home, About, Visual               # import app modules from apps folder
+#from streamlit_option_menu import option_menu
+#from apps import home, About, Visual               # import app modules from apps folder
 
 
 st.set_page_config(page_title="Road Accident Analysis", layout="wide")
