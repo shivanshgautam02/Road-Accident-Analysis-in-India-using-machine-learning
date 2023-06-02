@@ -7,7 +7,7 @@ import subprocess
 
 #st.title('Road Accident Analysis') 
     
-with open(r'C:\Users\shivk\Desktop\Road_accident_analysis\random_forest_model.pkl', 'rb') as f:
+with open(r'random_forest_model.pkl', 'rb') as f:
         model = pickle.load(f)
 
 input_features = ['age_band_of_driver', 'vehicle_type', 'age_of_vehicle', 'weather_conditions', 'day_of_week', 'road_surface_conditions', 'light_conditions', 'sex_of_driver','season','speed_limit']
