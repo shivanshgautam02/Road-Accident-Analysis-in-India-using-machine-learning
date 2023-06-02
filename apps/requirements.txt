@@ -1,0 +1,6 @@
+stramlit
+pandas
+numpy
+pickle
+leafmap
+subprocess
