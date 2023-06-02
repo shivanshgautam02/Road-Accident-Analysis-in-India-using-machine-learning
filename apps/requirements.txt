@@ -1,4 +1,4 @@
-stramlit
+streamlit
 pandas
 numpy
 pickle
