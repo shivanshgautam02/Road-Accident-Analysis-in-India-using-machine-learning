@@ -7,9 +7,9 @@ st.set_page_config(page_title="Road Accident Analysis", layout="wide")
 
 
 apps = [
-    {"func": home.app, "title": "Home", "icon": "house"},
-    {"func": Visual.app, "title": "Visual", "icon": "camera"},
-    {"func": About.app, "title": "About", "icon": "info"},
+    {"func": home.py, "title": "Home", "icon": "house"},
+    {"func": Visual.py, "title": "Visual", "icon": "camera"},
+    {"func": About.py, "title": "About", "icon": "info"},
     
 ]
 
