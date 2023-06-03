@@ -45,10 +45,8 @@ By considering these assumptions and dependencies, we can create a road accident
 A data-flow diagram(DFD) is a visual representation of how data moves through a process or system (usually an information system). Additionally, the DFD provides details about the inputs and outputs of each entity as well as the process itself for Road Accident Analysis using Machine Learning. A data-flow diagram lacks loops, decision rules, and control flows. Using a flowchart, specific operations based on the data can be depicted. Dataflow diagrams can be displayed using a variety of notations. A process must contain at least one of the endpoints (source and/or destination) for each data flow. Another data-flow diagram that divides a process into sub-processes can be used to represent a process in more detail. The structured analysis modeling tools include the dataflow diagram.
 
  
-	Figure 1: System model
 Data is collected from a variety of sources, such as police reports, government web pages, and researchers. The data is cleaned, pre-processed, and engineered to create features that are used to train a machine-learning model. The model is evaluated and deployed so that users can use it to predict the probability of an accident. The model is monitored over time to ensure that it is still accurate.
  
-          Figure 2: Data Flow Diagram
 
 
 # VI. PROPOSED MODEL
@@ -119,12 +117,18 @@ The table below shows the different models and their accuracy before hyperparame
 
     Algorithm	Accuracy
 Random Forest Classifier	78.40%
+
 Gradient Boosting Classifier	80.70%
+
 SVC (Support Vector Machine)	78.40%
-K-Neighbors Classifier	75.09%
-Logistic Regression	79.69%
+
+K-Neighbors Classifier		75.09%
+
+Logistic Regression		79.69%
+
 Decision Tree Classifier	79.69%
-XGBoost	80.90%
+
+XGBoost				80.90%
 
 We found that the random forest classifier had the highest accuracy, precision, recall, and F1 scores. This means that the model was able to correctly predict the outcome of the test cases most often, and it was also able to identify positive cases accurately. We believe that the random forest classifier is the best model for our application because it has the highest accuracy and F1 scores. This means that the model is likely to make accurate predictions on new data.
 
