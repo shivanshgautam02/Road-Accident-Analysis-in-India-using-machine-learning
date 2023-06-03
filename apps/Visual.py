@@ -5,10 +5,10 @@ import streamlit as st
 def app():
     # Define a dictionary of images with headings and content
     image_list = {
-        "image_1": {"heading": "Accident per Month", "content": "Number Of Accident V/S Month.", "path": "C:\\Users\\shivk\\Desktop\\Road_accident_analysis\\acc_month.png"},
-        "image_2": {"heading": "Accident on different times in day", "content": "Accident Different Time Of Day.", "path": "C:\\Users\\shivk\\Desktop\\Road_accident_analysis\\acc_russ.png"},
-        "image_3": {"heading": "Realation of features", "content": "This Heat Map Shows The Relation Between Different Features.", "path": "C:\\Users\\shivk\Desktop\\Road_accident_analysis\\heat_map.png"},
-        "image_4": {"heading": "Accident in different Seasions", "content": "Numbers Of Accident In Different Seasions.", "path": "C:\\Users\\shivk\\Desktop\\Road_accident_analysis\\acc_season.png"}
+        "image_1": {"heading": "Accident per Month", "content": "Number Of Accident V/S Month.", "path": "acc_month.png"},
+        "image_2": {"heading": "Accident on different times in day", "content": "Accident Different Time Of Day.", "path": "acc_russ.png"},
+        "image_3": {"heading": "Realation of features", "content": "This Heat Map Shows The Relation Between Different Features.", "path": "heat_map.png"},
+        "image_4": {"heading": "Accident in different Seasions", "content": "Numbers Of Accident In Different Seasions.", "path": "acc_season.png"}
     }
 
     # Define the main headline
