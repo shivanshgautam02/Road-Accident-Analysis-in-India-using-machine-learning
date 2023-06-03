@@ -1,0 +1,8 @@
+--find-links=https://girder.github.io/large_image_wheels GDAL
+jupyter-server-proxy
+keplergl
+localtileserver
+nbserverproxy
+streamlit
+streamlit-option-menu
+scikit-learn==1.0.2
