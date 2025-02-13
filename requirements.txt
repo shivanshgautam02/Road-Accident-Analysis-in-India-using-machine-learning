@@ -1,0 +1,7 @@
+streamlit
+streamlit-option-menu
+scikit-learn==1.0.2
+seaborn
+xgboost
+scikit-learn
+leafmap
